@@ -1,0 +1,32 @@
+/* Custom CSS for Blog */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Hero Section Styling */
+.hero {
+    background: linear-gradient(45deg, #6c757d, #4a5259);
+    color: white;
+    padding: 4rem 0;
+}
+
+.hero h1 {
+    font-weight: 700;
+}
+
+/* Card Hover Effect */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Navbar Customization */
+.navbar {
+    padding: 1rem 0;
+}
